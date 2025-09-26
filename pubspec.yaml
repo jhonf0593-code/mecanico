@@ -1,0 +1,21 @@
+name: mecanico_inteligente
+description: Mecánico Smart — app de diagnóstico automotriz
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+  provider: ^6.0.5
+  flutter_bluetooth_serial: ^0.4.2
+  flutter_reactive_ble: ^5.0.2
+  permission_handler: ^10.4.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  assets:
+    - assets/branding/
